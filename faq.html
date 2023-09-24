@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a
+          href="./index.html"
+          class="navbar-brand text-primary text-uppercase fw-bold"
+          >ECHO</a
+        >
+        <button
+          class="navbar-toggler border-0"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarDropdown"
+          aria-expanded="false"
+          aria-label="navigation"
+          aria-controls="navbarNav"
+        >
+          <i class="fa-solid fs-2 fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >About</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navDropdown">
+                <li>
+                  <a href="./about.html" class="dropdown-item">About us</a>
+                </li>
+                <li>
+                  <a href="./index.html#features" class="dropdown-item"
+                    >About product</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="./services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="./faq.html" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#testimonial" class="nav-link"
+                >Testimonial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary fw-bold text-secondary nav-button"
+            >Download now</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header>
+      <div class="container px-4 py-6">
+        <div class="row">
+          <div class="col-lg-5 mb-4 text-container">
+            <span class="badge text-uppercase bg-light text-secondary"
+              >FAQ</span
+            >
+            <h1 class="text-primary display-5 fw-bold">
+              Frequently Asked Questions
+            </h1>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <div class="d-flex hstack gap-2 my-4">
+              <a href="#" class="btn btn-primary">How we work</a>
+              <a href="#" class="btn btn-outline-primary">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-lg-7 mb-4 position-relative">
+            <img
+              src="./assets/hero_1.png.webp"
+              class="img-fluid image"
+              alt="hero"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- accordion -->
+    <section class="faq px-3 py-6">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-12 d-flex faq-text text-center flex-column align-items-center"
+          >
+            <span class="badge text-uppercase bg-light text-secondary"
+              >FAQ</span
+            >
+            <h2 class="fs-1 text-primary my-1 fw-bold">
+              Frequently Asked Questions
+            </h2>
+            <p class="w-75 mx-auto">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 my-4">
+            <div class="accordion" id="questions">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                  >
+                    How can I download?
+                  </button>
+                </h2>
+                <div
+                  class="accordion-collapse collapse show"
+                  id="collapseOne"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body p-4">
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <p>
+                      Separated they live in Bookmarksgrove right at the coast
+                      of the Semantics, a large language ocean.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                  >
+                    Is it free?
+                  </button>
+                </h2>
+                <div
+                  class="accordion-collapse collapse"
+                  id="collapseTwo"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body p-4">
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <p>
+                      Separated they live in Bookmarksgrove right at the coast
+                      of the Semantics, a large language ocean.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                  >
+                    Where can I get support?
+                  </button>
+                </h2>
+                <div
+                  class="accordion-collapse collapse"
+                  id="collapseThree"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body p-4">
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <p>
+                      Separated they live in Bookmarksgrove right at the coast
+                      of the Semantics, a large language ocean.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="px-3 py-6">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-12 testimonial-text d-flex text-center flex-column align-items-center"
+          >
+            <span class="badge text-uppercase bg-light text-secondary"
+              >Testimonials</span
+            >
+            <h2 class="fs-1 text-primary my-1 fw-bold">Testimonials</h2>
+            <p class="w-75 mx-auto">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 my-3 testimonial-col">
+            <div class="swiper testimonial-carousel">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide p-4 bg-white border border-1">
+                  <p class="lead">
+                    “Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.”
+                  </p>
+                  <div class="d-flex align-items-center hstack gap-4">
+                    <div class="avatar">
+                      <img
+                        src="./assets/person_1.jpg.webp"
+                        alt="avatar"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="mt-3">
+                      <h6 class="text-primary m-0">Michelle Alisson</h6>
+                      <p>Director at Google</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide p-4 border bg-white border-1">
+                  <p class="lead">
+                    “Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.”
+                  </p>
+                  <div class="d-flex align-items-center hstack gap-4">
+                    <div class="avatar">
+                      <img
+                        src="./assets/person_2.jpg.webp"
+                        alt="avatar"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="mt-3">
+                      <h6 class="text-primary m-0">Drew Wood</h6>
+                      <p>Director at Metavers</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide p-4 border bg-white border-1">
+                  <p class="lead">
+                    “Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.”
+                  </p>
+                  <div class="d-flex align-items-center hstack gap-4">
+                    <div class="avatar">
+                      <img
+                        src="./assets/person_3.jpg.webp"
+                        alt="avatar"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="mt-3">
+                      <h6 class="text-primary m-0">Carl Anderson</h6>
+                      <p>CTO at Metavers</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide p-4 bg-white border border-1">
+                  <p class="lead">
+                    “Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.”
+                  </p>
+                  <div class="d-flex align-items-center hstack gap-4">
+                    <div class="avatar">
+                      <img
+                        src="./assets/person_1.jpg.webp"
+                        alt="avatar"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="mt-3">
+                      <h6 class="text-primary m-0">Michelle Alisson</h6>
+                      <p>Director at Google</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide p-4 border bg-white border-1">
+                  <p class="lead">
+                    “Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.”
+                  </p>
+                  <div class="d-flex align-items-center hstack gap-4">
+                    <div class="avatar">
+                      <img
+                        src="./assets/person_2.jpg.webp"
+                        alt="avatar"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="mt-3">
+                      <h6 class="text-primary m-0">Drew Wood</h6>
+                      <p>Director at Metavers</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide p-4 border bg-white border-1">
+                  <p class="lead">
+                    “Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.”
+                  </p>
+                  <div class="d-flex align-items-center hstack gap-4">
+                    <div class="avatar">
+                      <img
+                        src="./assets/person_3.jpg.webp"
+                        alt="avatar"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="mt-3">
+                      <h6 class="text-primary m-0">Carl Anderson</h6>
+                      <p>CTO at Metavers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-6 px-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h5 class="text-primary fw-bold">About ECHO</h5>
+            <p class="">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="social d-flex gap-3">
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-twitter fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-instagram fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-linkedin fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-facebook fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-youtube fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-github fs-5 text-white"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5 class="text-primary fw-bold">Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                Important: <a href="#">Terms & Conditions</a>,
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                Useful: <a href="#expertise">Expertise</a>,
+                <a href="#pricing">Pricing</a>,
+                <a href="#">Newsletter</a>
+              </li>
+              <li>
+                Menu: <a href="./index.html">Home</a>,
+                <a href="./about.html">About</a>,
+                <a href="./services.html">Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5">
+            <p>
+              We would love to hear from you
+              <a href="mailto:contact@site.com"
+                ><strong>contact@site.com</strong></a
+              >
+            </p>
+            <form class="my-3 input-group" id="newsletter">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="d-flex">
+                <button class="btn btn-primary rounded-0 text-white">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+            <p class="d-none my-3" id="subscribe">
+              Thank you for subscribing to our newsletter! Stay updated with the
+              latest news and offers.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-2 border-top border-light">
+          <div class="col-12 mt-5 text-center">
+            <p>
+              Copyright © <span id="date"></span> All rights reserved | This
+              template is made with <span class="text-danger">♥</span> by
+              <a href="https://necka96.com/"> Nemanja Djordjevic</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- to top -->
+    <button class="to-top-btn bg-primary text-white" id="toTop">
+      <i class="fa-sharp fa-regular fs-2 fa-angle-up fa-beat-fade"></i>
+    </button>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

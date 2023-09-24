@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a
+          href="./index.html"
+          class="navbar-brand text-primary text-uppercase fw-bold"
+          >ECHO</a
+        >
+        <button
+          class="navbar-toggler border-0"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarDropdown"
+          aria-expanded="false"
+          aria-label="navigation"
+          aria-controls="navbarNav"
+        >
+          <i class="fa-solid fs-2 fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >About</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navDropdown">
+                <li>
+                  <a href="./about.html" class="dropdown-item">About us</a>
+                </li>
+                <li>
+                  <a href="./index.html#features" class="dropdown-item"
+                    >About product</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="./services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="./faq.html" class="nav-link">FQA</a>
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#testimonial" class="nav-link"
+                >Testimonial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary fw-bold text-secondary nav-button"
+            >Download now</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header>
+      <div class="container px-4 py-6">
+        <div class="row">
+          <div class="col-lg-5 mb-4 text-container">
+            <span class="badge text-uppercase bg-light text-secondary"
+              >contact</span
+            >
+            <h1 class="text-primary display-5 fw-bold">Get in Touch</h1>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <div class="d-flex hstack gap-2 my-4">
+              <a href="#" class="btn btn-primary">How we work</a>
+              <a href="#" class="btn btn-outline-primary">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-lg-7 mb-4 position-relative">
+            <img
+              src="./assets/hero_1.png.webp"
+              class="img-fluid image"
+              alt="hero"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- contact -->
+
+    <section class="contact px-3">
+      <div class="contaniner">
+        <div class="row offset-md-3">
+          <div class="col-md-7">
+            <div class="mb-4 contact-text">
+              <small>Contact Us</small>
+              <h2 class="text-primary m-0 fw-bold fs-1">Let's have a talk</h2>
+            </div>
+            <form id="form">
+              <div class="d-md-flex hstack gap-4">
+                <div class="mb-4 w-100">
+                  <label for="name" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-4 w-100">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" id="lastName" class="form-control" />
+                </div>
+              </div>
+              <div class="mb-4 w-100">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+              <div class="mb-4 w-100">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  required
+                  class="form-control"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+              <div class="d-grid mb-4">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </div>
+            </form>
+            <p class="lead contact-text d-none"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="py-6 px-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h5 class="text-primary fw-bold">About ECHO</h5>
+            <p class="">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="social d-flex gap-3">
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-twitter fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-instagram fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-linkedin fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-facebook fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-youtube fs-5 text-white"></i>
+              </a>
+              <a href="#" class="rounded-circle p-2">
+                <i class="fab fa-github fs-5 text-white"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5 class="text-primary fw-bold">Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                Important: <a href="#">Terms & Conditions</a>,
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                Useful: <a href="#expertise">Expertise</a>,
+                <a href="#pricing">Pricing</a>,
+                <a href="#">Newsletter</a>
+              </li>
+              <li>
+                Menu: <a href="./index.html">Home</a>,
+                <a href="./about.html">About</a>,
+                <a href="./services.html">Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5">
+            <p>
+              We would love to hear from you
+              <a href="mailto:contact@site.com"
+                ><strong>contact@site.com</strong></a
+              >
+            </p>
+            <form class="my-3 input-group" id="newsletter">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="d-flex">
+                <button class="btn btn-primary rounded-0 text-white">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+            <p class="d-none my-3" id="subscribe">
+              Thank you for subscribing to our newsletter! Stay updated with the
+              latest news and offers.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-2 border-top border-light">
+          <div class="col-12 mt-5 text-center">
+            <p>
+              Copyright © <span id="date"></span> All rights reserved | This
+              template is made with <span class="text-danger">♥</span> by
+              <a href="https://necka96.com/"> Nemanja Djordjevic</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- to top -->
+    <button class="to-top-btn bg-primary text-white" id="toTop">
+      <i class="fa-sharp fa-regular fs-2 fa-angle-up fa-beat-fade"></i>
+    </button>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>
